@@ -1,0 +1,40 @@
+.clearCard{
+    background-image: url("http://images.fineartamerica.com/images/artworkimages/mediumlarge/1/sunny-day-at-the-lake-lutz-baar.jpg") ;
+  
+}
+
+.snowCard{
+    background-image: url("http://images.fineartamerica.com/images-medium-large/snowy-day-damon-cureton.jpg") ;
+  
+}
+
+.rainCard{
+    background-image: url("http://commonwealthmagazine.org/wp-content/uploads/sites/2/2015/09/rainy_day_raining_cold_abstract_1600x1200_hd-wallpaper-1557994.jpg") ;
+   
+    
+}
+
+
+.cloudyCard{
+    background-image: url("http://img.wallpaperfolder.com/f/48A3E37380A7/cloudy-day-high-resolution-9aqp.jpg") ;
+ 
+    color:white;
+    text-align: center;
+    font-family: 'Creepster', cursive;
+}
+.nightClearcard{
+    background-image: url("http://i.imgur.com/HF3Xxg1.jpg") ;
+  
+}
+.nightSleetcard{
+    background-image: url("https://immersioninenglish.files.wordpress.com/2016/01/sleet-falling.png?w=500") ;
+   }
+
+.allCards {
+    border: 2px solid black;
+    border-radius: 4px;
+    background-repeat:no-repeat;
+    height:450px; 
+    background-size: 100% 100%;
+    margin:6px;
+}
