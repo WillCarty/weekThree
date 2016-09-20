@@ -7,26 +7,31 @@ function setupGame() {
 
     $("#intro").show();
     $("#game").hide();
-    
+
 
 }
 
-function wrongColor(){
-       $("game").css("background-color","red");
-   }
+
+function wrongColor() {
+    $("game").css("background-color:red");
+}
 function handleGuess() {
     var guess = $("#tbxGuess").val();
     if (+guess == answer) {
-        $("#message").text("You are right!");
-       
+        $("#message").text("You are right!"); 
+            $("#btnGuess").hide();
+           $("#resetBtn").on("click", setupGame);
+            
+        }
 
 
 
-    }
+
+
     else {
         $("#message").text("You are wrong try again!");
         $("#tbxGuess").val("");
-        $("")
+       
 
     }
 }
@@ -41,5 +46,5 @@ $(function () {
     $("#startGame").on("click", playGame);
     $("#btnGuess").on("click", handleGuess);
     setupGame();
-   
+
 });
