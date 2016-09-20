@@ -10,6 +10,10 @@ function setupGame() {
     
 
 }
+
+function wrongColor(){
+       $("game").css("background-color","red");
+   }
 function handleGuess() {
     var guess = $("#tbxGuess").val();
     if (+guess == answer) {
@@ -22,6 +26,7 @@ function handleGuess() {
     else {
         $("#message").text("You are wrong try again!");
         $("#tbxGuess").val("");
+        $("")
 
     }
 }
@@ -36,7 +41,5 @@ $(function () {
     $("#startGame").on("click", playGame);
     $("#btnGuess").on("click", handleGuess);
     setupGame();
-   function wrongColor(){
-       $("game").css("color","blue");
-   }
+   
 });
