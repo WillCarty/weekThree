@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+
+
+
+    <title>
+
+
+    </title>
+
+
+</head>
+
+<body>
+    <div id="topDiv" style="width: 100%; height: 200px; border: 40px solid black; background-color:green">
+        My, my, this is a pretty div.
+    </div>
+    <div id="bottomDiv" style="width: 100%; height: 200px; border: 40px solid black; background-color:gray">
+        My, my, this is a pretty div.
+    </div>
+
+
+
+    <br />
+    <button onclick="hideDivs()">Toggle off!</button>
+    <button onclick="showDivs()">Toggle on!</button>
+    <script>
+    function hideDivs(){
+        $("div").fadeOut("slow","linear");
+    }
+    function showDivs(){
+        $("div").fadeIn("slow","drop")();
+    }
+function hideBottomdiv(){
+    $("#bottomDiv").fadeOut("slow","linear");
+
+    }
+function hideBottomdiv(){
+    $("#topDiv").fadeOut("slow","linear");
+
+    }
+
+</script>
+<button onclick="hideBottomdiv()">Hide Bottom.</button>
+
+</body>
+
+
+</html>

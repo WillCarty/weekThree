@@ -12,3 +12,11 @@
 
 
 </html>
+
+
+ $(document).ready(function() {
+alert("Hello. jQuery is working!");
+
+        });
+
+        CDM content delivery network

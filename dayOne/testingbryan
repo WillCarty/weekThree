@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+ <h1><strong><center>Favorite Songs by the Beatles</center></strong></h1>
+<form action="submit">
+  <center><input type="text" value=""/>
+  </center>
+  <center><input type="submit" value="Submit"></center>
+  <br>
+</form>
+
+</body>
+</html>
