@@ -1,26 +1,24 @@
 .clearCard{
-    background-image: url("http://images.fineartamerica.com/images/artworkimages/mediumlarge/1/sunny-day-at-the-lake-lutz-baar.jpg") ;
+    background-image: url("http://www.zastavki.com/pictures/originals/2012/Nature_Fields_Sunny_Day_035620_.jpg") ;
   
 }
 
 .snowCard{
-    background-image: url("http://images.fineartamerica.com/images-medium-large/snowy-day-damon-cureton.jpg") ;
+    background-image: url("http://bestwallpaperhd.com/wp-content/uploads/2013/06/Snow-Landscape.jpg") ;
   
 }
 
 .rainCard{
-    background-image: url("http://commonwealthmagazine.org/wp-content/uploads/sites/2/2015/09/rainy_day_raining_cold_abstract_1600x1200_hd-wallpaper-1557994.jpg") ;
+    background-image: url("http://img.wallpaperfolder.com/f/4FB420B1F98A/girl-standing-rain-anime-22159.jpg") ;
    
     
 }
 
 
 .cloudyCard{
-    background-image: url("http://img.wallpaperfolder.com/f/48A3E37380A7/cloudy-day-high-resolution-9aqp.jpg") ;
+    background-image: url("https://nldesignsbythesea.files.wordpress.com/2015/01/rainy-day-moody-sunset-1-26-2015.jpg") ;
  
-    color:white;
-    text-align: center;
-    font-family: 'Creepster', cursive;
+    
 }
 .nightClearcard{
     background-image: url("http://i.imgur.com/HF3Xxg1.jpg") ;
@@ -36,5 +34,14 @@
     background-repeat:no-repeat;
     height:450px; 
     background-size: 100% 100%;
+    opacity: 0.8; filter: alpha(opacity=50);
     margin:6px;
+}
+.title{
+    text-align:center;
+    color: white;
+    font-family: 'Berkshire Swash', cursive;
+}
+.textShadows{
+    text-shadow: 2px 2px 2px black;
 }
